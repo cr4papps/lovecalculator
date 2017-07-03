@@ -1,0 +1,8 @@
+<ActionBar title="Love Calculator"></ActionBar>
+
+<StackLayout>
+  <Image src="res://logo_login" stretch="none" horizontalAlignment="center"></Image>
+  <TextField hint="Name 1" [(ngModel)]="n1"></TextField>
+  <TextField hint="Name 2" [(ngModel)]="n2"></TextField>
+  <Button text="Calculate" (tap)="calculate()"></Button>
+</StackLayout>
