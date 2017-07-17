@@ -15,6 +15,7 @@ StackLayout {
   margin-right: 30;
   padding-bottom: 15;
   background-color: white;
+  background-image: url('res://background.png');
 }
 Image {
   margin-top: 5;
